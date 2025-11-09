@@ -133,8 +133,8 @@ class CalendarViewWidget extends StatelessWidget {
         Card(
           margin: const EdgeInsets.all(14),
           shape: RoundedRectangleBorder(
-            borderRadius: BorderRadius.circular(16),
-          ),
+              borderRadius: BorderRadius.circular(12),
+              side: BorderSide(color: Colors.white, width: 0.1)),
           child: TableCalendar(
             currentDay: DateTime.now(),
             rowHeight: 50,

@@ -37,7 +37,7 @@ class MealTileWidget extends StatelessWidget {
           ),
           child: Icon(
             type == 'Comida' ? Icons.lunch_dining : Icons.dinner_dining,
-            color: hasMeal ? colorScheme.onPrimary : colorScheme.primaryFixed,
+            color: hasMeal ? colorScheme.onPrimary : colorScheme.onPrimary,
           ),
         ),
         title: Text(

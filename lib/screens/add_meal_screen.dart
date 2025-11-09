@@ -95,14 +95,14 @@ class _AddMealScreenState extends State<AddMealScreen> {
                     TextFormField(
                       controller: _mealNameController,
                       textInputAction: TextInputAction.next,
-                      decoration: const InputDecoration(
+                      decoration: InputDecoration(
                         labelText: 'Que comemos hoy?',
-                        labelStyle: TextStyle(color: Colors.black),
-                        prefixIcon: Icon(
+                        labelStyle: TextStyle(color: colorScheme.onSurface),
+                        prefixIcon: const Icon(
                           Icons.restaurant_menu,
                           color: Colors.green,
                         ),
-                        border: OutlineInputBorder(),
+                        border: const OutlineInputBorder(),
                       ),
                       validator: (value) {
                         if (value == null || value.trim().isEmpty) {

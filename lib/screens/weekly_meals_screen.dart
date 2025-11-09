@@ -111,7 +111,7 @@ class _WeeklyMealsScreenState extends State<WeeklyMealsScreen> {
                 boxShadow: [
                   BoxShadow(
                     color: colorScheme.shadow,
-                    blurRadius: 1,
+                    blurRadius: 3,
                     offset: Offset(0, 1),
                   ),
                 ],
